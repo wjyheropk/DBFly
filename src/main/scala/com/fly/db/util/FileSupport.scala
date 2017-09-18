@@ -1,4 +1,4 @@
-package com.baidu.adcoup.dbfly.util
+package com.fly.db.util
 
 import java.io.{File, PrintWriter}
 

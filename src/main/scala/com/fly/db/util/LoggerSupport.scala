@@ -1,4 +1,4 @@
-package com.baidu.adcoup.dbfly.util
+package com.fly.db.util
 
 import org.slf4j.LoggerFactory
 

@@ -1,6 +1,7 @@
-package com.baidu.adcoup.dbfly.service.syncer
+package com.fly.db.service.syncer
 
-import com.baidu.adcoup.dbfly.util.{ConfigSupport, LoggerSupport}
+import com.fly.db.util.{ConfigSupport, LoggerSupport}
+import com.fly.db.util.{ConfigSupport, LoggerSupport}
 
 import scala.collection.JavaConversions._
 import scala.sys.process._

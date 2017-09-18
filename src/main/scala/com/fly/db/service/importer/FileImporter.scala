@@ -1,6 +1,7 @@
-package com.baidu.adcoup.dbfly.service.importer
+package com.fly.db.service.importer
 
-import com.baidu.adcoup.dbfly.util.{DatabaseSupport, FileSupport}
+import com.fly.db.util.{DatabaseSupport, FileSupport}
+import com.fly.db.util.{DatabaseSupport, FileSupport}
 import com.typesafe.config.Config
 
 /**

@@ -1,7 +1,8 @@
-package com.baidu.adcoup.dbfly.service.updater
+package com.fly.db.service.updater
 
-import com.baidu.adcoup.dbfly.util.DatabaseSupport
-import com.baidu.adcoup.dbfly.util.ETLContext._
+import com.fly.db.util.DatabaseSupport
+import com.fly.db.util.ETLContext._
+import com.fly.db.util.DatabaseSupport
 
 import scala.collection.JavaConversions._
 import scala.collection.mutable

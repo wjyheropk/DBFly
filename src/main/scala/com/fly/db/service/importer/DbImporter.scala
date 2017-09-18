@@ -1,9 +1,10 @@
-package com.baidu.adcoup.dbfly.service.importer
+package com.fly.db.service.importer
 
 import java.sql.ResultSet
 
-import com.baidu.adcoup.dbfly.util.DatabaseSupport
-import com.baidu.adcoup.dbfly.util.ETLContext._
+import com.fly.db.util.DatabaseSupport
+import com.fly.db.util.ETLContext._
+import com.fly.db.util.DatabaseSupport
 import com.typesafe.config.Config
 
 import scala.collection.immutable.Map
