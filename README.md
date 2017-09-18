@@ -368,5 +368,4 @@ DBFly的理念之一，是尽可能增加配置来实现功能，而不是增加
 
 ## Contact: ##
 
-- Email: wangjiayin@baidu.com
-- Copyright/© 2015 Baidu.com, Inc. All Rights Reserved.
+- Email: wjyheropk@163.com

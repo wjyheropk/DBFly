@@ -6,7 +6,7 @@ import com.typesafe.config.{Config, ConfigFactory}
  * 配置读取工具
  * 读取application.conf中的配置
  *
- * @author wangjiayin@baidu.com
+ * @author wangjiayin
  * @since 2015-07-10
  */
 trait ConfigSupport {

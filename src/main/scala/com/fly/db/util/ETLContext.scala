@@ -6,7 +6,7 @@ import java.util.Date
 /**
   * 隐式转换上下文，需要使用时导入
   *
-  * @author wangjiayin <wangjiayin@baidu.com>
+  * @author wangjiayin <wangjiayin>
   * @since 2015/12/2 15:04
   */
 object ETLContext {

@@ -7,7 +7,7 @@ import com.typesafe.config.Config
 /**
   * 文件数据导入DB工具类
   *
-  * @author wangjiayin <wangjiayin@baidu.com>
+  * @author wangjiayin <wangjiayin>
   * @since 2015/8/5 11:21
   */
 trait FileImporter extends FileSupport with DatabaseSupport {

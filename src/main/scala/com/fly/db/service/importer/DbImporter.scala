@@ -14,7 +14,7 @@ import scala.collection.immutable.Map
   * 根据application.conf中的配置，从源数据库中select数据insert到目的数据库
   * 数据清洗导入过程可以有业务逻辑处理
   *
-  * @author wangjiayin@baidu.com
+  * @author wangjiayin
   * @since 2015-07-18
   */
 trait DbImporter extends DatabaseSupport {

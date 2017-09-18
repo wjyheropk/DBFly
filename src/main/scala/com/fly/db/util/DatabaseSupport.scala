@@ -16,7 +16,7 @@ import scala.concurrent.duration._
 /**
  * 数据库操作工具类，继承后使用
  *
- * @author wangjiayin@baidu.com
+ * @author wangjiayin
  * @since 2015-07-10
  */
 trait DatabaseSupport extends LoggerSupport with ConfigSupport {

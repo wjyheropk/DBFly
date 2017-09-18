@@ -10,7 +10,7 @@ import scala.collection.mutable
  * 数据库数据增量更新服务，采用对比更新方式
  * 根据application.conf中的配置，将数据从crm_tmp库增量更新到crm库
  *
- * @author wangjiayin@baidu.com
+ * @author wangjiayin
  * @since 2015-07-10
  */
 trait MemoryDbUpdater extends DatabaseSupport {

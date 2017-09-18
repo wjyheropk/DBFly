@@ -5,7 +5,7 @@ import java.util.Date
 /**
  * java.util.Date的扩展，简化Date比较的写法
  *
- * @author wangjiayin <wangjiayin@baidu.com>
+ * @author wangjiayin <wangjiayin>
  * @since 2015/12/2 14:52
  */
 class RichDate(d: Date) {

@@ -15,7 +15,7 @@ import scala.collection.mutable
   * 2016-11-18日修改：支持范围增量更新，而不是全表增量更新
   * 增加配置项：condition: "stat_day>='2016-07-01'"
   *
-  * @author wangjiayin@baidu.com
+  * @author wangjiayin
   * @since 2016-01-10
   */
 trait SqlDbUpdater extends DatabaseSupport {

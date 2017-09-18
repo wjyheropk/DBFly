@@ -12,7 +12,7 @@ import scala.sys.process._
  * 子类继承该类后直接调用synDB()
  * 也用作ETL前的准备工作，也可以用于线上数据备份
  *
- * @author wangjiayin@baidu.com
+ * @author wangjiayin
  * @since 2015-07-15
  */
 trait DbSyncer extends ConfigSupport with LoggerSupport {
