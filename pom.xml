@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baidu.adcoup</groupId>
+    <groupId>com.fly.db</groupId>
     <artifactId>dbfly</artifactId>
     <version>1.2.0</version>
     <name>dbfly</name>
@@ -141,29 +141,4 @@
             </build>
         </profile>
     </profiles>
-    <repositories>
-        <repository>
-            <id>ma</id>
-            <name>ma</name>
-            <url>http://ma-maven-repo.baidu.com:8304/archiva/repository/ma</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-                <checksumPolicy>warn</checksumPolicy>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>nexus-public</id>
-            <name>baidu maven</name>
-            <url>http://maven.scm.baidu.com:8081/nexus/content/groups/public</url>
-        </repository>
-        <repository>
-            <id>nexus-public-snapshots</id>
-            <name>baidu maven snapshots</name>
-            <url>http://maven.scm.baidu.com:8081/nexus/content/groups/public-snapshots</url>
-        </repository>
-    </repositories>
 </project>

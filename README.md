@@ -84,7 +84,7 @@ application.conf是DbFly中最重要的配置文件。
 
 - DbSyncer：
 
-	com.baidu.fly.service.syncer.DbSyncer提供了数据同步的核心服务，这是一个trait，想要使用它，你可以创建一个类继承DbSyncer，再调用它的synDB()方法，例如：
+	com.fly.db.service.syncer.DbSyncer提供了数据同步的核心服务，这是一个trait，想要使用它，你可以创建一个类继承DbSyncer，再调用它的synDB()方法，例如：
 
 		/**
 		 * 同步数据库任务
@@ -108,7 +108,7 @@ application.conf是DbFly中最重要的配置文件。
 数据的清洗、录入是整个过程中最重要的一步。因为现实情况中，源数据的格式或结构，几乎都是不符合我们的要求的。
 
 - DbImporter
-	com.baidu.fly.service.importer.DbImporter是一个trait，它是数据清洗子系统的核心，其中最重要的一个方法是：
+	com.fly.db.service.importer.DbImporter是一个trait，它是数据清洗子系统的核心，其中最重要的一个方法是：
 
 		  /**
 		   * 清洗并导入数据至load_db的主函数
@@ -185,7 +185,7 @@ application.conf是DbFly中最重要的配置文件。
 		  ]
 		}
 
-	接下来您需要做的就是继承com.baidu.fly.service.importer.FileImporter并使用其中的importFiles方法：
+	接下来您需要做的就是继承com.fly.db.service.importer.FileImporter并使用其中的importFiles方法：
 
 		/**
 		* 文件数据导入DB核心方法
@@ -217,7 +217,7 @@ application.conf是DbFly中最重要的配置文件。
 
 - DbUpdater
 
-	com.baidu.fly.service.updater.DbUpdater是数据增量更新子系统的核心服务trait。您可以像下面这样使其工作：
+	com.fly.db.service.updater.DbUpdater是数据增量更新子系统的核心服务trait。您可以像下面这样使其工作：
 
 		/**
 		 * 增量更新数据库任务
